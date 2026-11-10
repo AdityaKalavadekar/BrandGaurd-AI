@@ -1,0 +1,70 @@
+.guidelines-page {
+  padding: 30px;
+  color: #ffffff;
+}
+
+.guidelines-heading {
+  margin-bottom: 25px;
+}
+
+.guidelines-heading h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.guidelines-heading p {
+  color: #a9a9bd;
+}
+
+.guidelines-form {
+  max-width: 750px;
+  background: #202033;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guidelines-form label {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.guidelines-form input,
+.guidelines-form textarea,
+.guidelines-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #41415a;
+  border-radius: 7px;
+  background: #151525;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.guidelines-form textarea {
+  resize: vertical;
+}
+
+.save-guidelines-btn {
+  margin-top: 15px;
+  padding: 13px;
+  background: #7857e8;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-guidelines-btn:hover {
+  background: #6342d0;
+}
+
+.success-message {
+  color: #55d99a;
+  font-weight: 600;
+}

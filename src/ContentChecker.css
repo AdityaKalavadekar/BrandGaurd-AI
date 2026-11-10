@@ -1,0 +1,72 @@
+
+.checker-page {
+  padding: 25px;
+  color: white;
+}
+
+.checker-heading {
+  margin-bottom: 25px;
+}
+
+.checker-heading p {
+  color: #a9a9bd;
+}
+
+.checker-card,
+.checker-results {
+  max-width: 750px;
+  background: #202033;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.checker-card label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.checker-card textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  background: #151525;
+  color: white;
+  border: 1px solid #41415a;
+  border-radius: 7px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.checker-card button {
+  margin-top: 15px;
+  padding: 13px 20px;
+  background: #7857e8;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checker-card button:hover {
+  background: #6342d0;
+}
+
+.checker-results h3 {
+  margin-top: 0;
+}
+
+.passed {
+  color: #55d99a;
+}
+
+.failed {
+  color: #ff7070;
+}
+
+.checker-results p,
+.checker-results li {
+  color: #d0d0df;
+}
